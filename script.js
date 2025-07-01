@@ -20,7 +20,7 @@ const arrayContainer = document.getElementById("array");
           bars[j].classList.add("active");
           bars[j + 1].classList.add("active");
 
-          await new Promise((resolve) => setTimeout(resolve, 100));
+          await new Promise((resolve) => setTimeout(resolve, 1000));
 
           const height1 = parseInt(bars[j].style.height);
           const height2 = parseInt(bars[j + 1].style.height);
